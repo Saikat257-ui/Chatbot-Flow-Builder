@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: flowforge
+    name: Chatbot Flow Builder
     env: node
     plan: free
     buildCommand: npm install && npm run build
